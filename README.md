@@ -44,3 +44,9 @@ Join Servers:
 ```shell
     consul join ip_server_1
 ```
+
+### Easy Way with JSON:
+
+```shell
+    consul agent -config-dir=/etc/consul.d
+```
